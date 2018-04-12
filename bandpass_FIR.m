@@ -22,7 +22,7 @@ end
 N_min = ceil((A-7.95) / (2.285*0.013*pi));
 
 %Window length for Kaiser Window
-n=N_min;
+n=N_min+43;
 
 %Ideal bandpass impulse response of length "n"
 bp_ideal = ideal_lp(0.275*pi,n) - ideal_lp(0.195*pi,n);

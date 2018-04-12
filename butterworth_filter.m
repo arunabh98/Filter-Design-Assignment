@@ -61,6 +61,4 @@ fvtool(nz,dz)                                       %frequency response in dB
 %magnitude plot (not in log scale) 
 [H,f] = freqz(nz,dz,1024*1024, 300e3);
 plot(f,abs(H))
-grid
-
-                                                                                                           
+grid                                                                                                     
