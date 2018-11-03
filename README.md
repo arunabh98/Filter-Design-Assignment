@@ -1,4 +1,5 @@
-Filter Design Assignment - EE 338 Digital Signal Processing, IIT Bombay
+# Filter Design Assignment
+## EE 338 Digital Signal Processing, IIT Bombay
 
 This assignment was about designing a bandstop and a bandpass filter using a Finite Impulse Response (FIR) as well as an Infinite Impulse Response (IIR).
 The [report][1] contains the design procedure for designing an IIR filter based on the Butterworth and Chebyshev transfer 
